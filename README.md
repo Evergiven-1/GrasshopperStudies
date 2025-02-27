@@ -1,13 +1,18 @@
 # GrasshopperStudies
-Repository for Grasshopper scripts and Specific Python/C# scripts
+
+### Repository for Grasshopper scripts and Specific Python/C# scripts
+
+## Example 01: Parametric Grid Construction
+**Features slower update speed - ideal for complex geometry and visualization**
+
+https://github.com/user-attachments/assets/889762b8-509e-4d60-9efd-d436704a1c5d
 
 
 
-Example 01, with slower update speed
 
-https://github.com/user-attachments/assets/9683ba27-5b69-4c86-a3a5-72a5f163abf5
 
-Example 02, Faster, for primarily Brep/Surface Geometry
+## Example 02: Surface Geometry Processing
+**Features faster calculation - optimized for Brep/Surface Geometry operations**
 
-https://github.com/user-attachments/assets/8b7f416c-294d-4aed-9e2c-80244049ffa5
+![Example 02 Demo](https://github.com/user-attachments/assets/8b7f416c-294d-4aed-9e2c-80244049ffa5)
 
