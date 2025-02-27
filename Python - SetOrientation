@@ -1,0 +1,17 @@
+"""Grasshopper Script"""
+import Rhino as rc
+
+cameraX = rc.RhinoDoc.ActiveDoc.Views.ActiveView.ActiveViewport.CameraX
+cameraY = rc.RhinoDoc.ActiveDoc.Views.ActiveView.ActiveViewport.CameraY
+cameraZ = rc.Geometry.Vector3d(0.0,0.0,1.0)
+
+def main(_pts):
+    if _XYforXYZ == True:
+        oriented = rc.Geometry.Plane(_pts, cameraX, cameraZ) #2D
+    else:
+        oriented = rc.Geometry.Plane(_pts, cameraX, cameraY) #3D
+        
+    return oriented
+
+if _pts:
+    oriented = main(_pts)
